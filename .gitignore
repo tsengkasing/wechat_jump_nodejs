@@ -4,9 +4,6 @@ node_modules/
 # pic
 path/
 
-# temp
-temp/
-
+# runtime images
 visualize.png
-des.png
 _screenshot.png

@@ -9,8 +9,8 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "jimp": "^0.2.28",
-    "opencv": "^6.0.0",
-    "thread-sleep": "^2.0.0"
+    "jimp": "~0.2.28",
+    "opencv": "~6.0.0",
+    "thread-sleep": "~2.0.0"
   }
 }

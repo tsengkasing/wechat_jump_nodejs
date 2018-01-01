@@ -15,6 +15,7 @@ const GREEN = [0, 255, 0]; // B, G, R
 		getScreenShot(SCREENSHOT_NAME, n++);
 
 		const rgbBuffer = await rgba2rgb(SCREENSHOT_NAME);
+
 		const {location, image} = await getSourceLocation(rgbBuffer);
 		const [srcCol, srcRow] = location;
 

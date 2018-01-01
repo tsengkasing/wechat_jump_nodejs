@@ -4,6 +4,6 @@ module.exports = {
 		'no-tabs': 0,
 		'semi': [0, 'always'],
 		'indent': [2, 'tab'],
-		'space-before-function-paren': 0,
+		'space-before-function-paren': 0
 	}
 };
