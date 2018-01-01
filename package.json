@@ -1,0 +1,16 @@
+{
+  "name": "wechat-jumpandjump",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "jimp": "^0.2.28",
+    "opencv": "^6.0.0",
+    "thread-sleep": "^2.0.0"
+  }
+}
