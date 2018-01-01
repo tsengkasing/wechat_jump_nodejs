@@ -1,5 +1,11 @@
 # 微信跳一跳 (nodejs)
 
+![](https://img.shields.io/badge/Node-8-brightgreen.svg)
+![](https://img.shields.io/badge/opecv-2.4-brightgreen.svg)
+![](https://img.shields.io/badge/nodeopecv-6.0-brightgreen.svg)
+![](https://img.shields.io/badge/platform-android-brightgreen.svg)
+![](https://img.shields.io/badge/adb-required-brightgreen.svg)
+
 使用 [node-opencv](https://github.com/peterbraden/node-opencv) 来实现 opencv 的调用。
 
 ## 小人坐标获取
