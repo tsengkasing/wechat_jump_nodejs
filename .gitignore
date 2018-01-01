@@ -1,2 +1,12 @@
+# npm
+node_modules/
 
-node_modules
+# pic
+path/
+
+# temp
+temp/
+
+visualize.png
+des.png
+_screenshot.png
