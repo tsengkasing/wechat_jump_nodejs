@@ -33,6 +33,7 @@ const GREEN = [0, 255, 0]; // B, G, R
 
 		jump(time);
 		sleep(time + 1000);
+		sleep(parseInt(Math.random() * 3000, 10));
 	}
 })();
 
@@ -52,7 +53,11 @@ function getScreenShot(fileName, n) {
  * @param {number} time
  */
 function jump(time = 1000) {
-	execSync(`adb shell input swipe 360 970 360 980 ${time}`);
+	// 360 970 360 980
+	let y = parseInt(Math.random() * 1080, 10);
+	let x = parseInt(Math.random() * 720, 10);
+	let distance = parseInt(Math.random() * 5, 10);
+	execSync(`adb shell input swipe ${x} ${y - distance} ${x} ${y + distance} ${time}`);
 }
 
 /**
@@ -178,7 +183,7 @@ function getDestinationPoint(im) {
 		let [rightCol, rightRow] = [x, y];
 		console.log(`[目标块右点坐标] ${rightRow} ${rightCol}`);
 
-		im.save('./des.png');
+		// im.save('./des.png');
 		if (!canFindRightPoint) {
 			rightRow = oneOfThrid + topRow + 50
 		} else {
